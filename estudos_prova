@@ -1,15 +1,17 @@
 Modelo OSI é a padronizaçação das redes, explica o funcionamento atraves de camadas:
 7 camadas:
 AASTREF: sigla para lembrar das sete camadas abaixo
-7 -APLICAÇÃO: 
-6 -APRESENTAÇÃO: 
-5 -SESSÃO: 
+7 -APLICAÇÃO: HTTP, POP, SMTP, etc. (todos os protocolos que sao mais conhecidos)
+6 -APRESENTAÇÃO: criptografia, codificação e compactação
+5 -SESSÃO: estabelece sessao de inicio e fim de conexão, start e end
 4 -TRASNPORTE: TCP(confiavel, garante a entrega, ele verifica com um pacote de syn antes de enviar de fato, orientado a conexão, só de um pra um), UDP(não confiavel, a unica vantagem é que pode enviar para varias pessoas e grupos ao mesmo tempo)
 3 -REDE: Roteador, Pacote, endereço ip
 2 -ENLACE: SWITCH, quadros, endereco mac
 1 -FÍSICO: HUB, Bits brutos, energia elétrica, cabos de rede
 
 o hub manda para todos e o switch interpreta os quadros logo manda apenas para o destino.
+
+DNS pode usar tanto tcp quanto udp
 
 RJ45 cabo de rede que todos utilizam
 
